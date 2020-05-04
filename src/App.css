@@ -1,0 +1,42 @@
+#root-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+#pomodoro-clock {
+  border: solid;
+  width: 70vw;
+}
+
+#length-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button {
+  height: 100%;
+}
+
+h4 {
+  margin: 0;
+}
+
+button {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.arrows {
+  outline: none;
+  border: none;
+}
+
+.arrows:hover {
+  color: gray;
+}
